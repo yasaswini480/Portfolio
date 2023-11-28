@@ -1,0 +1,42 @@
+.contact
+{
+    font-size: 30px;
+    color:white;
+    font-weight: 200;
+}
+#cont
+{
+    background-color: black;
+    color: white;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+h4
+{
+    color: white;
+    font-size: 20px;
+}
+.name, .email, .message
+{
+    font-size: 20px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 120%;
+    margin: 15px;
+}
+button{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px; 
+    margin-left: 170px; 
+}
+.message
+{
+    height: 80px;
+    font-size: 20px;
+}

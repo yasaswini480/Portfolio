@@ -1,0 +1,61 @@
+#intro
+{
+    width: 96vw;
+    height: calc(100vh - 4rem);
+    font-size: 30px;
+    margin-bottom: 0rem;
+    padding: 20px;
+    background-color:black;
+    overflow: hidden;
+    position: relative;
+}
+.img
+{
+    position: relative;
+    float:right;  
+    object-fit: cover; 
+    top: -30rem; 
+    right: 0;
+    height: 50%;
+    width:fit-content;
+    padding:2%;
+    padding-right:20%;
+}
+.section1
+{
+    padding: 50px;
+    padding-top: 130px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+.hello
+{
+    font-size: 40px;
+}
+.intro
+{
+    font-size: 70px;
+}
+.name
+{
+    color: chocolate;
+}
+.para
+{
+    font-size: 25px;
+}
+.hire
+{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    font-size: 18px;
+    color: black;
+}
